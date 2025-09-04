@@ -1,6 +1,8 @@
 function Mail(subj, msg) {
     this.subject = subj
     this.message = msg
+    this.date = new Date()
+    this.from = "angie.chin007@gmail.com"
   }
   
   // Type your code below this line!
